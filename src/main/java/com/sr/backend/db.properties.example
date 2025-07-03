@@ -1,0 +1,5 @@
+# db.properties.template
+db.driver=com.microsoft.sqlserver.jdbc.SQLServerDriver
+db.url=jdbc:sqlserver://localhost:1433;databaseName=YOUR_DATABASENAME;encrypt=false;trustServerCertificate=true
+db.user=YOUR_USERNAME
+db.password=YOUR_PASSWORD
