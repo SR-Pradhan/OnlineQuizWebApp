@@ -39,4 +39,20 @@ A simple online quiz web application built using **Java (Servlets & JSP)**, **JD
 - Docker (If You are a Mac User)
 - Eclipse IDE (with Dynamic Web Project support) or IntelliJ IDEA
 - Git (for version control)
+---
+
+## 🗃️ Database Schema
+
+Here is the SQL Server schema used in this project.
+
+### 🔹 `answers` Table
+
+```sql
+CREATE TABLE [dbo].[answers] (
+    [question_Id]    INT NOT NULL,
+    [correct_option] INT NOT NULL,
+    CONSTRAINT [PK_answers] PRIMARY KEY CLUSTERED ([question_Id] ASC)
+);
+
+
 
