@@ -26,8 +26,17 @@ A simple online quiz web application built using **Java (Servlets & JSP)**, **JD
 
 ## ⚙️ Setup Instructions
 
-> 🔒 **Note:** The `db.properties` file is intentionally ignored for security. That's why I have added a file named  db.properties.example at src/main/java/com/sr/backend/db.properties.example
+> 🔒 **Note:** For security reasons, the actual database credentials file `db.properties` is not included in the repository.  
+> Instead, a sample file `db.properties.example` is provided at:  
+> `src/main/java/com/sr/backend/db.properties.example`  
+> ➤ **You must create your own `db.properties` file based on this example.**
 
-
-
+### ✅ Prerequisites:
+- Java JDK 8 or above
+- Apache Tomcat 9 or above
+- Microsoft SQL Server (MSSQL)
+- Azure Data Studio (to use SQL Server Locally)
+- Docker (If You are a Mac User)
+- Eclipse IDE (with Dynamic Web Project support) or IntelliJ IDEA
+- Git (for version control)
 
