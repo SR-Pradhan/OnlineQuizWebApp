@@ -9,7 +9,7 @@ A simple online quiz web application built using **Java (Servlets & JSP)**, **JD
 - ✅ Multiple-choice quiz functionality
 - ✅ Dynamic score calculation using database values
 - ✅ Skipped question handling
-- ✅ Secure database connection with `.properties` file (ignored for security
+- ✅ Secure database connection with `.properties` file (ignored for security)
 - ✅ Clean and modular servlet structure
 
 ---
