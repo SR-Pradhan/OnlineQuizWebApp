@@ -4,7 +4,7 @@ A simple online quiz web application built using **Java (Servlets & JSP)**, **JD
 
 
 
-🚀 Feature
+🚀 Features
 
 - ✅ Multiple-choice quiz functionality
 - ✅ Dynamic score calculation using database values
